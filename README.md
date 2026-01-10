@@ -15,6 +15,9 @@ This file contains subject information and survey scores
 
 ### /raw_data
 This fiolder contains raw files of current data set
+
+
 File name format:
+
 (yymmdd)(Sbject number)_(task name)_Main_YYYY_MM_DD_HHhmm.csv
 
