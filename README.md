@@ -4,7 +4,7 @@
 ## Seoul National University Developmental Cognitive Neuroscience Lab
 PI: Sang Ah Lee
 
-Sang-Eon Park
+Sang-Eon Park, 
 Jisu Chung
 
 ### Baby_Survey_Data.xlsx
