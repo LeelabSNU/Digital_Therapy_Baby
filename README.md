@@ -1,9 +1,8 @@
 # Digital_Therapy_Baby
 
 
-# Seoul National University
-# Developmental Cognitive Neuroscience Lab
-# PI: Sang Ah Lee
+## Seoul National University \n Developmental Cognitive Neuroscience Lab
+PI: Sang Ah Lee
 
-# Sang-Eon Park
-# Jisu Chung
+Sang-Eon Park
+Jisu Chung
