@@ -1,41 +1,3 @@
-
-
-De-identification
-All data were fully anonymized prior to sharing.
-No names, contact information, or direct identifiers are included.
-Subject IDs are randomly assigned and cannot be linked back to individuals.
-
-
-
-### Baby_Survey_Data.xlsx
-This file contains subject information and survey scores
-
-[ sub_date	/ date	/ Sbj /	age_detail /	age	/ sex /	location /	station	/ Experimenter /	ces_dc /	depression / stai_ch /	anxiety /	Parent /	k_ars /	adhd /	inattention /	hyperactivity ]
-
-Survey Measures
-- CES-DC: Center for Epidemiological Studies Depression Scale for Children.
-  Higher scores indicate higher levels of depressive symptoms.
-- STAI-CH: State-Trait Anxiety Inventory for Children.
-  Higher scores indicate greater anxiety.
-- K-ARS: Korean ADHD Rating Scale.
-  Higher scores indicate greater ADHD-related symptoms.
-
-
-
-### /raw_data
-This fiolder contains raw files of current data set
-
-
-File name format:
-
-(yymmdd)(Sbject number)_(task name)_Main_YYYY_MM_DD_HHhmm.csv
-
-
-
-
-
-
-
 # Digital_Therapy_Baby - Baby Survey and Behavioral Dataset
 
 ## Seoul National University Developmental Cognitive Neuroscience Lab
@@ -57,6 +19,12 @@ The dataset includes standardized questionnaire scores related to depression, an
 Data were collected between YYYY and YYYY at [institution or region, if applicable] as part of a behavioral neuroscience study involving child participants.
 
 Participants completed caregiver- and self-reported questionnaires and computerized behavioral tasks administered by trained experimenters.
+
+De-identification
+All data were fully anonymized prior to sharing.
+No names, contact information, or direct identifiers are included.
+Subject IDs are randomly assigned and cannot be linked back to individuals.
+
 
 ---
 
@@ -105,3 +73,9 @@ This file contains subject-level demographic information and survey scores.
 This folder contains raw task data files generated during experimental sessions.
 
 **File naming format:**
+
+(yymmdd)(Sbject number)_(task name)_Main_YYYY_MM_DD_HHhmm.csv
+
+
+
+
