@@ -16,7 +16,7 @@ The dataset includes standardized questionnaire scores related to depression, an
 ---
 
 ## 2. Data Collection
-Data were collected between YYYY and YYYY at [institution or region, if applicable] as part of a behavioral neuroscience study involving child participants.
+Data were collected between 2023 and 2024 at GyeonggiChildrensMuseum / Seoul National University Developmental Cognitive Neuroscience Lab as part of a behavioral neuroscience study involving child participants.
 
 Participants completed caregiver- and self-reported questionnaires and computerized behavioral tasks administered by trained experimenters.
 
