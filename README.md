@@ -133,6 +133,8 @@ Example:
 Each file corresponds to a single participant’s task session and includes trial-level behavioral data.
 
 
+## Additional information
+
 ⚙️ Data Processing and Missing Values
 
 The dataset represents raw survey scores and raw task output files
