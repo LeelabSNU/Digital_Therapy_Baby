@@ -11,19 +11,66 @@ Jisu Chung
 ## 1. Overview
 This repository contains de-identified survey and behavioral task data collected as part of a research study investigating emotional and attentional characteristics in children.
 
+
+📖 About This Dataset
+
+This dataset aims to address that gap by providing:
+
+Standardized questionnaire data assessing depression, anxiety, and ADHD-related symptoms
+
+Raw behavioral task data collected in controlled experimental settings
+
+
+
 The dataset includes standardized questionnaire scores related to depression, anxiety, and ADHD symptoms, as well as raw task data files generated during experimental sessions.
+
+Survey data including depression, anxiety, and ADHD symptom measures
+
+Raw behavioral task files collected during experimental sessions
+
+Fully de-identified participant information in compliance with ethical research standards
 
 ---
 
-## 2. Data Collection
-Data were collected between 2023 and 2024 at GyeonggiChildrensMuseum / Seoul National University Developmental Cognitive Neuroscience Lab as part of a behavioral neuroscience study involving child participants.
+## 2. Data Information
 
-Participants completed caregiver- and self-reported questionnaires and computerized behavioral tasks administered by trained experimenters.
+
+### Dataset Contents
+
+Standardized questionnaire data
+
+Depression (CES-DC) : Weissman, M. M., Orvaschel, H., & Padian, N. (1980). Children’s Symptom and Social Functioning Self-Report Scales Comparison of Mothers’ and Children’s Reports. The Journal of nervous and mental disease, 168(12), 736-740.
+
+Anxiety (STAI-CH) : Spielberger, C. D., Edwards, C. D., Montouri, J., & Lushene, R. (1973). State-Trait Anxiety Inventory for Children (STAI-CH)
+
+ADHD symptoms (K-ARS) : DuPaul GJ. Parent and Techer Rating of ADHD Symptoms: Psychometric Properties in a Community-Based Sample;1991.
+
+Raw behavioral task output files
+
+Fully anonymized participant information, compliant with ethical research standards
+
+
+
+### Data Collection
+
+Data were collected between 2023 and 2024 at:
+
+Gyeonggi Children’s Museum (M)
+
+Seoul National University Developmental Cognitive Neuroscience Lab (L)
+
+Participants completed caregiver-reported and self-reported questionnaires, as well as computerized behavioral tasks, administered by trained experimenters under standardized protocols.
 
 De-identification
 All data were fully anonymized prior to sharing.
-No names, contact information, or direct identifiers are included.
-Subject IDs are randomly assigned and cannot be linked back to individuals.
+
+No names, contact information, or direct personal identifiers are included
+
+Subject IDs are randomly assigned and cannot be linked back to individuals
+
+Location and experimenter identifiers are encoded to prevent re-identification
+
+The dataset contains no personally identifiable information (PII).
 
 
 ---
@@ -78,60 +125,6 @@ This folder contains raw task data files generated during experimental sessions.
 
 
 
-Digital_Therapy_Baby
-Baby Survey and Behavioral Dataset
-
-Seoul National University – Developmental Cognitive Neuroscience Lab
-Principal Investigator: Sang Ah Lee
-Contributors: Sang-Eon Park, Jisu Chung
-
-📖 About This Dataset
-
-The Digital_Therapy_Baby Dataset is a de-identified survey and behavioral dataset designed to support research on emotional regulation and attentional characteristics in children.
-
-With the growing interest in digital therapeutics, developmental neuroscience, and data-driven mental health research, there is an increasing need for well-annotated, ethically shared child behavioral datasets. However, publicly available datasets that integrate standardized emotional/clinical scales with task-based behavioral data remain limited.
-
-This dataset aims to address that gap by providing:
-
-Standardized questionnaire data assessing depression, anxiety, and ADHD-related symptoms
-
-Raw behavioral task data collected in controlled experimental settings
-
-A reusable resource for developmental, clinical, and computational research
-
-The dataset is intended for secondary analyses, methodological validation, and exploratory research in child development and mental health.
-
-📊 Dataset Overview
-
-The repository contains:
-
-Survey data including depression, anxiety, and ADHD symptom measures
-
-Raw behavioral task files collected during experimental sessions
-
-Fully de-identified participant information in compliance with ethical research standards
-
-🧪 Data Collection
-
-Data were collected between 2023 and 2024 at:
-
-Gyeonggi Children’s Museum (M)
-
-Seoul National University Developmental Cognitive Neuroscience Lab (L)
-
-Participants completed caregiver-reported and self-reported questionnaires, as well as computerized behavioral tasks, administered by trained experimenters under standardized protocols.
-
-🔒 De-identification
-
-All data were fully anonymized prior to sharing.
-
-No names, contact information, or direct personal identifiers are included
-
-Subject IDs are randomly assigned and cannot be linked back to individuals
-
-Location and experimenter identifiers are encoded to prevent re-identification
-
-The dataset contains no personally identifiable information (PII).
 
 📁 Dataset Description
 1. Baby_Survey_Data.xlsx
