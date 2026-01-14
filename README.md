@@ -70,7 +70,6 @@ Subject IDs are randomly assigned and cannot be linked back to individuals
 
 Location and experimenter identifiers are encoded to prevent re-identification
 
-The dataset contains no personally identifiable information (PII).
 
 
 ---
@@ -91,9 +90,9 @@ This file contains subject-level demographic information and survey scores.
 - `station`: Experimental station ID
 - `Experimenter`: Experimenter ID
 - `ces_dc`: CES-DC total score
-- `depression`: CES-DC Score above 15 : 1
+- `depression`: CES-DC > 15 (1 = above cutoff)
 - `stai_ch`: STAI-CH total score
-- `anxiety`: 43 > STAI-CH Score >= 39 : 1 / STAI-CH Score >= 43 : 2 
+- `anxiety`: 1: 39 ≤ STAI-CH < 43, 2: STAI-CH ≥ 43
 - `Parent`: Parent-report indicator (1: Father / 2: Mother)
 - `k_ars`: Korean ADHD Rating Scale total score
 - `adhd`: k-ars Score above 19 : 1
@@ -105,12 +104,16 @@ This file contains subject-level demographic information and survey scores.
 ## 4. Survey Measures
 - **CES-DC (Center for Epidemiological Studies Depression Scale for Children):**  
   Measures depressive symptoms in children. Higher scores indicate greater depressive symptom severity.
+  Weissman, M. M., Orvaschel, H., & Padian, N. (1980). Children’s Symptom and Social Functioning Self-Report Scales Comparison of Mothers’ and Children’s Reports. The Journal of nervous and mental disease, 168(12), 736-740.
 
 - **STAI-CH (State-Trait Anxiety Inventory for Children):**  
   Assesses anxiety levels in children. Higher scores indicate greater anxiety.
+  Spielberger, C. D., Edwards, C. D., Montouri, J., & Lushene, R. (1973). State-Trait Anxiety Inventory for Children (STAI-CH) [Database record]. APA PsycTests.
+https://doi.org/10.1037/t06497-000
 
 - **K-ARS (Korean ADHD Rating Scale):**  
   Evaluates ADHD-related behaviors. Higher scores indicate greater ADHD symptom severity.
+  DuPaul GJ. Parent and Techer Rating of ADHD Symptoms: Psychometric Properties in a Community-Based Sample;1991.
 
 ---
 
@@ -123,94 +126,12 @@ This folder contains raw task data files generated during experimental sessions.
 
 (yymmdd)(Sbject number)_(task name)_Main_YYYY_MM_DD_HHhmm.csv
 
-
-
-
-📁 Dataset Description
-1. Baby_Survey_Data.xlsx
-
-This file contains subject-level demographic information and survey scores.
-
-Variables:
-
-sub_date: Date of experiment + subject identifier
-
-date: Date of experiment
-
-Sbj: Anonymous subject ID
-
-age_detail: Detailed age information
-
-age: Age in years
-
-sex: Biological sex
-
-location: Data collection location
-
-M: Children’s Museum
-
-L: Laboratory
-
-station: Experimental station ID
-
-Experimenter: Experimenter ID
-
-ces_dc: CES-DC total score
-
-depression: CES-DC score > 15 (binary indicator)
-
-stai_ch: STAI-CH total score
-
-anxiety:
-
-39 ≤ STAI-CH < 43 → 1
-
-STAI-CH ≥ 43 → 2
-
-Parent: Parent-report indicator
-
-1: Father
-
-2: Mother
-
-k_ars: Korean ADHD Rating Scale total score
-
-adhd: K-ARS score > 19 (binary indicator)
-
-inattention: K-ARS inattention subscale score
-
-hyperactivity: K-ARS hyperactivity subscale score
-
-🧠 Survey Measures
-
-CES-DC (Center for Epidemiological Studies Depression Scale for Children)
-Measures depressive symptoms in children.
-Higher scores indicate greater depressive symptom severity.
-
-STAI-CH (State-Trait Anxiety Inventory for Children)
-Assesses anxiety levels in children.
-Higher scores indicate greater anxiety.
-
-K-ARS (Korean ADHD Rating Scale)
-Evaluates ADHD-related behaviors.
-Higher scores indicate greater ADHD symptom severity.
-
-🧾 Raw Data Structure
-/raw_data
-
-This folder contains raw task data files generated during experimental sessions.
-
-File naming format:
-
-(yymmdd)(SubjectNumber)_(TaskName)_Main_YYYY_MM_DD_HHhmm.csv
-
-
 Example:
 
 240315012_Flanker_Main_2024_03_15_14h30.csv
 
-
 Each file corresponds to a single participant’s task session and includes trial-level behavioral data.
+
 
 ⚙️ Data Processing and Missing Values
 
@@ -221,6 +142,7 @@ Missing values may be present where participants did not complete specific items
 No imputation, normalization, or statistical preprocessing has been applied
 
 Users are responsible for handling missing data according to their analytical needs.
+
 
 ⚖️ Ethical Considerations
 
