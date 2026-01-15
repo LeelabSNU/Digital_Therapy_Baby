@@ -101,19 +101,6 @@ This file contains subject-level demographic information and survey scores.
 
 ---
 
-## 4. Survey Measures
-- **CES-DC (Center for Epidemiological Studies Depression Scale for Children):**  
-  Measures depressive symptoms in children. Higher scores indicate greater depressive symptom severity.
-  Weissman, M. M., Orvaschel, H., & Padian, N. (1980). Children’s Symptom and Social Functioning Self-Report Scales Comparison of Mothers’ and Children’s Reports. The Journal of nervous and mental disease, 168(12), 736-740.
-
-- **STAI-CH (State-Trait Anxiety Inventory for Children):**  
-  Assesses anxiety levels in children. Higher scores indicate greater anxiety.
-  Spielberger, C. D., Edwards, C. D., Montouri, J., & Lushene, R. (1973). State-Trait Anxiety Inventory for Children (STAI-CH) [Database record]. APA PsycTests.
-https://doi.org/10.1037/t06497-000
-
-- **K-ARS (Korean ADHD Rating Scale):**  
-  Evaluates ADHD-related behaviors. Higher scores indicate greater ADHD symptom severity.
-  DuPaul GJ. Parent and Techer Rating of ADHD Symptoms: Psychometric Properties in a Community-Based Sample;1991.
 
 ---
 
@@ -139,7 +126,7 @@ Each file corresponds to a single participant’s task session and includes tria
 
 The dataset represents raw survey scores and raw task output files
 
-Missing values may be present where participants did not complete specific items or trials
+Missing values indicate that participants did not complete the task due to loss of interests. 
 
 No imputation, normalization, or statistical preprocessing has been applied
 
